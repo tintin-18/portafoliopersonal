@@ -1,19 +1,33 @@
 * {
   box-sizing: border-box;
+    margin: 0;
+  padding: 0;
 }
 
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-   background-image: url('blackground.jpg'); /* Ruta de la imagen de fondo */
-  background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
-  background-repeat: no-repeat; /* Evita que se repita la imagen */
-  background-position: center; /* Centra la imagen */
  color: white;
+}
+.background-image,
+.background-image2 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
 }
 
 
+.background-image {
+     background-image: url('blackground.jpg'); /* Ruta de la imagen de fondo */
+}
+
+.background-image2 {
+  background-image: url('pinkground.jpg'); /* Ruta de la imagen de fondo */
+}
 main {
   padding-top: 6rem; 
 }
@@ -44,7 +58,8 @@ main {
   text-decoration: none;
   font-size: 1.5rem;
   font-style: oblique;
-  font-family: Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   color: black;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -66,12 +81,12 @@ main {
 
 .welcome-section {
     text-align: center;
-     margin: 0;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-font-family: 'Bebas Neue', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
  flex-direction: column;
  gap: 0.1rem;
    font-size: 2rem;
@@ -82,3 +97,17 @@ font-family: 'Bebas Neue', sans-serif;
   margin: 0;           /* Quita margen arriba y abajo */
   padding: 0;          *
   }
+
+  
+.welcome-section h2 {color: white;
+   font-size: 2rem; 
+ text-shadow:
+  }
+ #sobre-mi, #proyectos {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: black;}
