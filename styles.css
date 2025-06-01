@@ -233,7 +233,7 @@ textarea {
 }
 
 .cvsection img {
-  width: 15rem;
+  width: 100%;
   object-fit: cover;
   border-radius: 0 0 0.5rem 0.5rem;
   display: block;
