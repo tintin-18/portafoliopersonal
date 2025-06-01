@@ -101,7 +101,6 @@ font-weight: bold;
   
 .welcome-section h2 {color: white;
    font-size: 2rem; 
- text-shadow:
   }
  #sobre-mi, #proyectos {
   text-align: center;
@@ -150,6 +149,7 @@ textarea {
   border-radius: 8px;
   font-size: 1rem;
   box-sizing: border-box;
+    min-width: 100vh;
 }
 
 #proyectos{
@@ -160,9 +160,14 @@ display: flex;
   padding: 2rem;
 }
 
+.certificadoss{
+  display: flex;
+  justify-content: center; /* o space-between, flex-start, etc. */
+  gap: 2rem;
+  padding-top: 2rem;
+}
 
-
-#tituloproyectos {
+.tituloproyectos {
 text-align: center;
   padding: 2rem;
   font-size: 3rem;
@@ -206,4 +211,60 @@ text-align: center;
   margin-right: auto;
 }
 
+.cvsection{
+   display: block;
+  text-decoration: none;
+  color: inherit;
+  width: 15rem;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 2rem; 
+  margin-left: auto;
+  margin-right: auto;
+}
+.cvsection:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+.cvsection img {
+  width: 15rem;
+  object-fit: cover;
+  border-radius: 0 0 8px 8px;
+  display: block;
+  margin-top: auto;
+ margin-left: auto;
+  margin-right: auto;
+}
 
+.footer{
+  background-color: tomato;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente */
+  justify-content: center; /* Centra verticalmente */
+  text-align: center;
+  min-height: 100vh; 
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+#formulario {
+  width: 100%;
+}
+
+.iconpag {
+  width: 200px;
+  margin-bottom: 20px;
+   filter: invert(1);
+}
