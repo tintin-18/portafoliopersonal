@@ -26,7 +26,7 @@ body {
 }
 
 .background-image2 {
-  background-image: url('pinkground.jpg');
+  background-image: url('tomatoground.png');
 }
 
 main {
@@ -38,7 +38,7 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: tomato;
+  background-color: #D84315;
   position: fixed;
   top: 0;
   left: 0;
@@ -62,14 +62,20 @@ main {
   font-style: oblique;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  color: black;
+  color: whitesmoke;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #navegar li a:hover {
-  background-color: black;
-  color: tomato;
+  background-color: whitesmoke;
+  color: #D84315
+;
 }
+#cvinvert {
+  filter: invert(1);
+}
+
+
 
 .logo-container {
   display: flex;
@@ -79,6 +85,7 @@ main {
 
 .logo {
   width: 5rem;
+  filter: invert(1);
 }
 
 .welcome-section {
@@ -113,7 +120,7 @@ main {
   line-height: 1.6;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  color: black;
+  color: whitesmoke;
 }
 
 #formulario {
@@ -180,7 +187,7 @@ textarea {
   line-height: 1.6;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  color: black;
+  color: whitesmoke;
 }
 
 .proyecto-card {
@@ -194,6 +201,7 @@ textarea {
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-bottom: 2rem;
+  color: black;
 }
 
 .proyecto-card:hover {
@@ -241,8 +249,9 @@ textarea {
 }
 
 .footer {
-  background-color: tomato;
-  color: black;
+  background-color: #D84315
+;
+  color: whitesmoke;
   text-align: center;
   padding: 1rem;
   position: relative;
